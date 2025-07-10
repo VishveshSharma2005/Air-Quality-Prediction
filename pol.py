@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Simulate a sample dataset for AQI prediction
 np.random.seed(42)
-date_range = pd.date_range(start="2022-01-01", end="2022-12-31", freq="H")
+date_range = pd.date_range(start="2022-01-01", end="2022-12-31", freq="h")
 
 data = pd.DataFrame({
     "datetime": date_range,
